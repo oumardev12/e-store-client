@@ -1,0 +1,14 @@
+export { default as Profile } from "./profile/Profile";
+export { default as Navbar } from "./navbar/Navbar";
+export { default as LogIn } from "./authForms/LogIn";
+export { default as SignUp } from "./authForms/SignUp";
+export { default as Banner } from "./banner/Banner";
+export { default as BestSelling } from "./bestSelling/BestSelling";
+export { default as Categories } from "./categories/Categories";
+export { default as ClientSlider } from "./clientSlider/ClientSlider";
+export { default as Footer } from "./footer/Footer";
+export { default as Feed } from "./feed/Feed";
+export { default as PromoBanner } from "./promoBanner/PromoBanner";
+export { default as CardItems } from "./cardItems/CardItems";
+export { default as Products } from "./products/Products";
+export { default as Checkout } from "./checkout/Checkout";

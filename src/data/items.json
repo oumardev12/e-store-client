@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "black-shoe",
+    "img": "black-shoe.png",
+    "placeholder": "black-shoe.avif",
+    "actualPrice": 200,
+    "price": 100,
+    "category": "shoes",
+    "bestSeller": true
+  },
+  {
+    "id": 2,
+    "name": "colored-shoe",
+    "img": "colored-shoe.png",
+    "placeholder": "colored-shoe.avif",
+    "actualPrice": 200,
+    "price": 100,
+    "category": "shoes",
+    "bestSeller": true
+  },
+  {
+    "id": 3,
+    "name": "west-shoe",
+    "img": "west-shoe.png",
+    "placeholder": "west-shoe.avif",
+    "actualPrice": 100,
+    "price": 50,
+    "category": "shoes",
+    "bestSeller": true
+  },
+  {
+    "id": 4,
+    "name": "red-shoe",
+    "img": "red-shoe.png",
+    "placeholder": "red-shoe.avif",
+    "actualPrice": 300,
+    "price": 100,
+    "category": "shoes",
+    "bestSeller": true
+  },
+  {
+    "id": 5,
+    "name": "smart-watch",
+    "img": "smart-watch.png",
+    "placeholder": "smart-watch.avif",
+    "actualPrice": 200,
+    "price": 100,
+    "category": "electronics",
+    "bestSeller": true
+  },
+  {
+    "id": 6,
+    "name": "iphone",
+    "img": "iphone.png",
+    "placeholder": "iphone.avif",
+    "actualPrice": 200,
+    "price": 100,
+    "category": "electronics",
+    "bestSeller": true
+  },
+  {
+    "id": 7,
+    "name": "casque",
+    "img": "casque.png",
+    "placeholder": "casque.avif",
+    "actualPrice": 200,
+    "price": 100,
+    "category": "electronics",
+    "bestSeller": false
+  },
+  {
+    "id": 8,
+    "name": "airpod",
+    "img": "airpod.png",
+    "placeholder": "airpod.avif",
+    "actualPrice": 200,
+    "price": 100,
+    "category": "electronics",
+    "bestSeller": false
+  },
+  {
+    "id": 9,
+    "name": "monitor",
+    "img": "monitor.png",
+    "placeholder": "monitor.avif",
+    "actualPrice": 200,
+    "price": 100,
+    "category": "electronics",
+    "bestSeller": false
+  },
+  {
+    "id": 10,
+    "name": "yellow-shoe",
+    "img": "yellow-shoe.png",
+    "placeholder": "yellow-shoe.avif",
+    "actualPrice": 200,
+    "price": 100,
+    "category": "shoes",
+    "bestSeller": false
+  }
+]
