@@ -2,7 +2,8 @@ import axios from "axios";
 import { logInSchemaType, signUpSchemaType } from "../schemas/schemas";
 import { UserInfo, checkoutType, singleUserType } from "../types/types";
 
-const baseURL = import.meta.env.VITE_API_BASE_URL;
+// const baseURL = import.meta.env.VITE_API_BASE_URL;
+const baseURL = "https://e-store-server-sg6p.onrender.com";
 
 const signUp = async (data: signUpSchemaType) => {
   const res = await axios.post<UserInfo>("/signup", data, {
