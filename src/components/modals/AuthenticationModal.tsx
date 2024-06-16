@@ -3,6 +3,7 @@ import { FaXmark as CloseModale } from "react-icons/fa6";
 import SignUp from "../authForms/SignUp";
 import LogIn from "../authForms/LogIn";
 import { modalDropIn, m } from "../../constants/constants";
+import { AiFillWarning } from "react-icons/ai";
 
 type authenticationModalProps = {
   setShowAuthModal: React.Dispatch<React.SetStateAction<boolean>>;
@@ -29,6 +30,13 @@ const AuthenticationModal = ({
         animate="visible"
         exit="exit"
       >
+        <div className="translate-y-9 text-xs text-yellow-500 flex justify-center w-full text-center">
+          <i className="mr-2 text-sm">
+            <AiFillWarning />
+          </i>
+          <p>authentication can be slow!</p>
+        </div>
+
         <div
           onClick={() => setShowAuthModal((prev) => !prev)}
           className="absolute cursor-pointer top-0 right-0 text-2xl text-white"

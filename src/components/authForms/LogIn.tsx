@@ -38,7 +38,9 @@ const LogIn = ({ setShowAuthModal }: loginProps) => {
       setActivePass(false);
       setShowAuthModal(false);
     } catch (error: any) {
-      setError(error.response.data.errorMessage.slice(0, 40));
+      console.log(error);
+
+      setError(error?.response?.data?.errorMessage.slice(0, 40));
       setTimeout(() => {
         setError("");
       }, 5000);
